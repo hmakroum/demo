@@ -1,0 +1,9 @@
+package com.smsmode.demosmsmode.repository;
+
+import com.smsmode.demosmsmode.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends JpaRepository<User, String> {
+}
